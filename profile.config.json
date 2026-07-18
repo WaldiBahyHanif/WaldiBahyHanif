@@ -1,0 +1,88 @@
+{
+  "$schema": "./profile.schema.json",
+  "profile": {
+    "name": "Waldi Bahy Hanif Ramadhani",
+    "username": "WaldiBahyHanif",
+    "headline": "Machine Learning & AI Engineer",
+    "affiliation": "Universitas Teknologi Yogyakarta",
+    "location": "Yogyakarta, Indonesia",
+    "status": "Learning & Building AI Systems",
+    "about": [
+      "I am a Machine Learning & AI Engineering student at Universitas Teknologi Yogyakarta, focused on building practical AI systems and deep learning models.",
+      "Currently exploring the intersection of model training, software development, and data pipelines to solve real-world analytical problems."
+    ]
+  },
+  "research": {
+    "primary": "Machine Learning & AI",
+    "direction": "Applied Artificial Intelligence",
+    "themes": "Deep Learning / NLP / Computer Vision",
+    "narrative": "I am focused on designing, training, and deploying intelligent models. I explore how machine learning systems and autonomous workflows can be integrated into production software environments."
+  },
+  "focus": [
+    {
+      "name": "Machine Learning",
+      "description": "Designing and training predictive models, neural networks, and optimizing inference performance."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "description": "Exploring large language models, agentic workflows, and semantic search systems."
+    },
+    {
+      "name": "Software Engineering",
+      "description": "Building robust APIs, data pipelines, and database systems to support AI-driven applications."
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Image Processor",
+      "url": "https://github.com/WaldiBahyHanif/ai-image-processor",
+      "focus": "Computer Vision",
+      "summary": "A pipeline utilizing deep learning to perform automated segmentation and processing of visual assets.",
+      "heroLabel": "Active research"
+    },
+    {
+      "name": "Agentic Chatbot",
+      "url": "https://github.com/WaldiBahyHanif/agentic-chatbot",
+      "focus": "Natural Language Processing",
+      "summary": "An autonomous agent system integrated with tool execution capabilities for contextual task automation.",
+      "heroLabel": "Core build"
+    }
+  ],
+  "techStack": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-Learn",
+    "OpenCV",
+    "Pandas",
+    "NumPy",
+    "JavaScript",
+    "Git",
+    "SQL",
+    "Docker"
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "value": "WaldiBahyHanif",
+      "url": "https://github.com/WaldiBahyHanif",
+      "logo": "github",
+      "color": "0B1220"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "Waldi Bahy",
+      "url": "https://linkedin.com",
+      "logo": "linkedin",
+      "color": "0077B5"
+    }
+  ],
+  "activity": {
+    "enabled": true,
+    "limit": 6
+  },
+  "appearance": {
+    "palette": "ocean"
+  },
+  "footer": "Learning, building, and sharing intelligent systems."
+}
