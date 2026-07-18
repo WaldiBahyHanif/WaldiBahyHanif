@@ -100,6 +100,7 @@ async function samplePortrait(sourceBuffer, columns, rows) {
   const luminancePipeline = sharp(sourceBuffer)
     .ensureAlpha()
     .trim(trimOptions)
+    .modulate({ brightness: 0.76, contrast: 1.35 })
     .flatten({ background: "#FFFFFF" })
     .greyscale()
     .normalise()
