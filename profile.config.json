@@ -72,9 +72,23 @@
     {
       "label": "LinkedIn",
       "value": "Waldi Bahy",
-      "url": "https://linkedin.com",
+      "url": "https://www.linkedin.com/in/waldi-bahy-hanif-ramadhani-272872355?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "logo": "linkedin",
       "color": "0077B5"
+    },
+    {
+      "label": "Twitter",
+      "value": "WaldiBahy",
+      "url": "https://x.com/WaldiBahy?t=N3fjwhZ5i7pqkbkBqBgiEg&s=08",
+      "logo": "twitter",
+      "color": "1DA1F2"
+    },
+    {
+      "label": "Instagram",
+      "value": "waldibahy",
+      "url": "https://www.instagram.com/waldibahy?igsh=MXRwaDF1dDRiODlydA==",
+      "logo": "instagram",
+      "color": "E4405F"
     }
   ],
   "activity": {

@@ -80,6 +80,14 @@ export async function generateProfileReadme({ config, manifest, readmePath }) {
 ${renderLinks(config.links)}
 </p>
 
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=WaldiBahyHanif.WaldiBahyHanif&" alt="Visitor Badge" />
+</p>
+
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Coding GIF" />
+</div>
+
 ## About Me
 
 ${about}
@@ -99,6 +107,16 @@ ${config.research.narrative}
 ## Tech Stack
 
 ${techStack}
+
+## GitHub Stats & Activity
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=WaldiBahyHanif&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WaldiBahyHanif/WaldiBahyHanif/output/snake.svg" alt="Snake animation" width="100%" />
+</p>
 ${activitySection}
 ---
 
