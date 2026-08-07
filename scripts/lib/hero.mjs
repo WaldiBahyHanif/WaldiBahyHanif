@@ -74,7 +74,7 @@ function buildProfileLines(config) {
   });
 
   lines.push({ type: "blank" }, { type: "section", value: "GRID.LINKS" });
-  config.links.slice(0, 2).forEach((link) => {
+  config.links.slice(0, 4).forEach((link) => {
     lines.push({ type: "row", key: link.label, value: link.value });
   });
   lines.push({ type: "footer", value: "signal.locked > PROFILE / BUILD / SHARE" });
