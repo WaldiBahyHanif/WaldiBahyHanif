@@ -1,33 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 138" fill="none" role="img" aria-labelledby="term-title">
-  <title id="term-title">terminal: waldy@github — building intelligent systems</title>
-  <desc>Animated terminal window typing the profile headline.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 168" fill="none" role="img" aria-labelledby="term-title">
+  <title id="term-title">terminal: waldy@github — building AI that ships</title>
+  <desc>Animated terminal session typing the profile headline, status, and a deploy.</desc>
   <defs>
     <linearGradient id="term-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0B1220"/>
       <stop offset="1" stop-color="#0F172A"/>
     </linearGradient>
-    <clipPath id="term-line-0"><rect x="-4" y="60" width="0" height="28"><animate attributeName="width" from="0" to="640" dur="0.55s" begin="0.7s" fill="freeze"/></rect></clipPath>
-    <clipPath id="term-line-1"><rect x="-4" y="94" width="0" height="28"><animate attributeName="width" from="0" to="560" dur="0.55s" begin="1.7s" fill="freeze"/></rect></clipPath>
-    <clipPath id="term-line-2"><rect x="-4" y="108" width="0" height="28"><animate attributeName="width" from="0" to="520" dur="0.55s" begin="2.7s" fill="freeze"/></rect></clipPath>
+    <linearGradient id="term-scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="term-edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <clipPath id="term-line-0"><rect x="-6" y="58" width="0" height="30"><animate attributeName="width" from="0" to="520" dur="0.5s" begin="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="term-line-1"><rect x="-6" y="84" width="0" height="30"><animate attributeName="width" from="0" to="600" dur="0.5s" begin="1.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="term-line-2r"><rect x="-6" y="110" width="0" height="46"><animate attributeName="width" from="0" to="680" dur="0.6s" begin="2.7s" fill="freeze"/></rect></clipPath>
   </defs>
-  <rect width="900" height="138" rx="16" fill="url(#term-bg)"/>
-  <rect x="0.5" y="0.5" width="899" height="137" rx="16" stroke="#1E293B" stroke-width="1" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
+
+  <rect width="900" height="168" rx="16" fill="url(#term-bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="167" rx="16" stroke="url(#term-edge)" stroke-width="1.4" opacity="0.65">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="4.5s" repeatCount="indefinite"/>
   </rect>
-  <circle cx="24" cy="26" r="6" fill="#FB7185"/>
-  <circle cx="48" cy="26" r="6" fill="#FBBF24"/>
-  <circle cx="72" cy="26" r="6" fill="#34D399"/>
-  <text x="92" y="31" font-family="Consolas, Menlo, monospace" font-size="14" fill="#64748B">waldy@github: ~</text>
-  <text x="24" y="64" font-family="Consolas, Menlo, monospace" font-size="18" fill="#2DD4BF">$</text>
-  <text x="44" y="64" font-family="Consolas, Menlo, monospace" font-size="18" fill="#E2E8F0">whoami</text>
+
+  <circle cx="26" cy="30" r="6" fill="#FB7185"/>
+  <circle cx="52" cy="30" r="6" fill="#FBBF24"/>
+  <circle cx="78" cy="30" r="6" fill="#34D399"/>
+  <text x="100" y="35" font-family="Consolas, Menlo, monospace" font-size="14" fill="#64748B">waldy@github: ~</text>
+  <circle cx="830" cy="30" r="4" fill="#34D399">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="842" y="34" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1" fill="#34D399">SYNCED</text>
+
+  <text x="26" y="72" font-family="Consolas, Menlo, monospace" font-size="16" fill="#2DD4BF">$</text>
+  <text x="46" y="72" font-family="Consolas, Menlo, monospace" font-size="16" fill="#E2E8F0">whoami</text>
   <g clip-path="url(#term-line-0)">
-    <text x="44" y="96" font-family="Consolas, Menlo, monospace" font-size="18" fill="#38BDF8">Machine Learning &amp; AI Engineer — Universitas Teknologi Yogyakarta</text>
+    <text x="206" y="72" font-family="Consolas, Menlo, monospace" font-size="16" fill="#38BDF8">machine learning &amp; ai engineer, yogyakarta</text>
   </g>
+
+  <text x="26" y="98" font-family="Consolas, Menlo, monospace" font-size="16" fill="#2DD4BF">$</text>
+  <text x="46" y="98" font-family="Consolas, Menlo, monospace" font-size="16" fill="#E2E8F0">cat status.txt</text>
   <g clip-path="url(#term-line-1)">
-    <text x="24" y="124" font-family="Consolas, Menlo, monospace" font-size="18" fill="#2DD4BF">&gt;</text>
-    <text x="44" y="124" font-family="Consolas, Menlo, monospace" font-size="18" fill="#E2E8F0">building intelligent systems that run in production</text>
+    <text x="206" y="98" font-family="Consolas, Menlo, monospace" font-size="16" fill="#E2E8F0">turning notebooks into </text>
+    <text x="26" y="124" font-family="Consolas, Menlo, monospace" font-size="16" fill="#34D399">shipped ai</text>
   </g>
-  <rect x="588" y="104" width="9" height="20" fill="#2DD4BF" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;0;1;0" keyTimes="0;0.25;0.32;0.5;0.68;1" dur="1.6s" begin="3.2s" repeatCount="indefinite"/>
+
+  <g clip-path="url(#term-line-2r)">
+    <text x="26" y="152" font-family="Consolas, Menlo, monospace" font-size="16" fill="#2DD4BF">$ ./ship --nightly</text>
+    <text x="26" y="152" font-family="Consolas, Menlo, monospace" font-size="16" fill="#94A3B8">ok · pipeline clean · 0 warnings</text>
+    <rect x="26" y="128" width="0" height="24" fill="url(#term-scan)"></rect>
+  </g>
+
+  <rect x="650" y="140" width="9" height="20" fill="#2DD4BF" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;1;0" keyTimes="0;0.2;0.28;0.52;0.68;1" dur="1.1s" begin="4.4s" repeatCount="indefinite"/>
   </rect>
+
+  <g fill="#64748B">
+    <rect x="820" y="86" width="5" height="40" rx="2" opacity="0.5"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.1s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="837" y="76" width="5" height="50" rx="2" opacity="0.5"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.1s" begin="0.1s" repeatCount="indefinite"/></rect>
+    <rect x="854" y="95" width="5" height="31" rx="2" opacity="0.5"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.1s" begin="0.7s" repeatCount="indefinite"/></rect>
+  </g>
 </svg>

@@ -12,18 +12,20 @@ function badgeSegment(value) {
   return encodeURIComponent(String(value).replaceAll("-", "--").replaceAll("_", "__").replaceAll(" ", "_"));
 }
 
-const TECH_STYLES = {
-  Python: { logo: "python", color: "3776AB" },
-  PyTorch: { logo: "pytorch", color: "EE4C2C" },
-  TensorFlow: { logo: "tensorflow", color: "FF6F00" },
-  "Scikit-Learn": { logo: "scikitlearn", color: "F7931E" },
-  OpenCV: { logo: "opencv", color: "5C3EE8" },
-  Pandas: { logo: "pandas", color: "150458" },
-  NumPy: { logo: "numpy", color: "013243" },
-  JavaScript: { logo: "javascript", color: "F7DF1E", logoColor: "black" },
-  Git: { logo: "git", color: "F05032" },
-  SQL: { color: "4479A1" },
-  Docker: { logo: "docker", color: "2496ED" }
+const DEVICON_BASE = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons";
+
+const TECH_ICONS = {
+  Python: { icon: "python/python-original.svg" },
+  PyTorch: { icon: "pytorch/pytorch-original.svg" },
+  TensorFlow: { icon: "tensorflow/tensorflow-original.svg" },
+  "Scikit-Learn": { icon: "scikitlearn/scikitlearn-original.svg" },
+  OpenCV: { icon: "opencv/opencv-original.svg" },
+  Pandas: { icon: "pandas/pandas-original.svg" },
+  NumPy: { icon: "numpy/numpy-original.svg" },
+  JavaScript: { icon: "javascript/javascript-original.svg" },
+  Git: { icon: "git/git-original.svg" },
+  SQL: { icon: "postgresql/postgresql-original.svg" },
+  Docker: { icon: "docker/docker-original.svg" }
 };
 
 function renderLinks(links) {
@@ -36,10 +38,12 @@ function renderLinks(links) {
 
 function renderTechStack(techStack) {
   return techStack.map((item) => {
-    const style = TECH_STYLES[item] || { color: "374151" };
-    const logo = style.logo ? `&logo=${encodeURIComponent(style.logo)}` : "";
-    const logoColor = style.logo ? `&logoColor=${style.logoColor ?? "white"}` : "";
-    const image = `https://img.shields.io/badge/${badgeSegment(item)}-${style.color}?style=for-the-badge${logo}${logoColor}`;
+    const entry = TECH_ICONS[item];
+    if (entry) {
+      return `  <img src="${DEVICON_BASE}/${entry.icon}" alt="${escapeCell(item)}" title="${escapeCell(item)}" width="48" height="48" />`;
+    }
+    const style = { color: "374151" };
+    const image = `https://img.shields.io/badge/${badgeSegment(item)}-${style.color}?style=for-the-badge`;
     return `  <img src="${image}" alt="${escapeCell(item)}" />`;
   }).join("\n");
 }
@@ -144,16 +148,16 @@ ${techStack}
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&border_radius=10" height="180" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&border_radius=10" height="180" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=${username}&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=5&order=3" height="180" alt="streak graph" />
+  <img src="https://streak-stats.demolab.com?user=${username}&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=10&order=3" height="180" alt="streak graph" />
 </div>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=${username}&theme=tokyonight&no-frame=true&column=4&row=2" alt="GitHub trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=${username}&theme=tokyonight&no-frame=true&column=4&row=2&margin-w=8&margin-h=8" alt="GitHub trophies" />
 </p>
 
 ---

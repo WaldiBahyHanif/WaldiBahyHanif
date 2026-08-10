@@ -6,30 +6,31 @@
     "headline": "Machine Learning & AI Engineer",
     "affiliation": "Universitas Teknologi Yogyakarta",
     "location": "Yogyakarta, Indonesia",
-    "status": "Learning & Building AI Systems",
+    "status": "Turning notebooks into shipped AI",
     "about": [
-      "I'm a Machine Learning & AI Engineering student at Universitas Teknologi Yogyakarta who prefers models that can actually be run, tested, and shipped.",
-      "Lately I've been focused on moving intelligent systems out of notebooks — through training pipelines, clean APIs, and the infrastructure that keeps them alive in production."
+      "ML / AI engineering student at Universitas Teknologi Yogyakarta. I learn by building smaller versions of the things I read about, then breaking them until they work.",
+      "I care about what happens after training: datasets that don't need babysitting, APIs that behave, and pipelines that run the same on my laptop and on the server.",
+      "Deep in LLM apps, agent workflows, and computer vision — mostly late at night, with way too many print statements."
     ]
   },
   "research": {
     "primary": "Machine Learning & AI",
     "direction": "Applied Artificial Intelligence",
     "themes": "Deep Learning / NLP / Computer Vision",
-    "narrative": "I am focused on designing, training, and deploying intelligent models. I explore how machine learning systems and autonomous workflows can be integrated into production software environments."
+    "narrative": "My work is practical first: train the model, load it, serve it, watch it fail, fix it, ship it. I read papers and rebuild them badly at first — the fastest way I know to actually understand them. Lately that means agentic systems that use tools instead of just agreeing with you."
   },
   "focus": [
     {
       "name": "Machine Learning",
-      "description": "designing and training predictive models, neural networks, and fast inference."
+      "description": "training models, tuning them, and getting inference fast enough to feel instant."
     },
     {
       "name": "Artificial Intelligence",
-      "description": "LLMs, agentic workflows, and semantic search systems."
+      "description": "LLM apps, agentic workflows, and retrieval that answers before you finish typing."
     },
     {
       "name": "Software Engineering",
-      "description": "APIs, data pipelines, and databases that keep AI systems reliable."
+      "description": "APIs, databases, and pipelines that keep AI a product instead of a prototype."
     }
   ],
   "projects": [
@@ -37,14 +38,14 @@
       "name": "AI Image Processor",
       "url": "https://github.com/WaldiBahyHanif/ai-image-processor",
       "focus": "Computer Vision",
-      "summary": "A pipeline utilizing deep learning to perform automated segmentation and processing of visual assets.",
+      "summary": "Deep-learning segmentation and processing pipeline for visual assets, engineered to survive real-world batch jobs.",
       "heroLabel": "Active research"
     },
     {
       "name": "Agentic Chatbot",
       "url": "https://github.com/WaldiBahyHanif/agentic-chatbot",
       "focus": "Natural Language Processing",
-      "summary": "An autonomous agent system integrated with tool execution capabilities for contextual task automation.",
+      "summary": "Chat agent with tool execution that automates real tasks instead of just talking about them.",
       "heroLabel": "Core build"
     }
   ],
@@ -98,5 +99,5 @@
   "appearance": {
     "palette": "ocean"
   },
-  "footer": "Learning, building, and sharing intelligent systems."
+  "footer": "Building AI systems that ship — one training run at a time."
 }
