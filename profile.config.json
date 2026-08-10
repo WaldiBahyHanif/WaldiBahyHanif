@@ -8,8 +8,8 @@
     "location": "Yogyakarta, Indonesia",
     "status": "Learning & Building AI Systems",
     "about": [
-      "I am a Machine Learning & AI Engineering student at Universitas Teknologi Yogyakarta, focused on building practical AI systems and deep learning models.",
-      "Currently exploring the intersection of model training, software development, and data pipelines to solve real-world analytical problems."
+      "I'm a Machine Learning & AI Engineering student at Universitas Teknologi Yogyakarta who prefers models that can actually be run, tested, and shipped.",
+      "Lately I've been focused on moving intelligent systems out of notebooks — through training pipelines, clean APIs, and the infrastructure that keeps them alive in production."
     ]
   },
   "research": {
@@ -21,15 +21,15 @@
   "focus": [
     {
       "name": "Machine Learning",
-      "description": "Designing and training predictive models, neural networks, and optimizing inference performance."
+      "description": "designing and training predictive models, neural networks, and fast inference."
     },
     {
       "name": "Artificial Intelligence",
-      "description": "Exploring large language models, agentic workflows, and semantic search systems."
+      "description": "LLMs, agentic workflows, and semantic search systems."
     },
     {
       "name": "Software Engineering",
-      "description": "Building robust APIs, data pipelines, and database systems to support AI-driven applications."
+      "description": "APIs, data pipelines, and databases that keep AI systems reliable."
     }
   ],
   "projects": [
