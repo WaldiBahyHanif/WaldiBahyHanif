@@ -23,9 +23,13 @@ const TECH_ICONS = {
   Pandas: { icon: "pandas/pandas-original.svg" },
   NumPy: { icon: "numpy/numpy-original.svg" },
   JavaScript: { icon: "javascript/javascript-original.svg" },
+  FastAPI: { icon: "fastapi/fastapi-original.svg" },
+  Jupyter: { icon: "jupyter/jupyter-original.svg" },
   Git: { icon: "git/git-original.svg" },
+  GitHub: { icon: "github/github-original.svg" },
   SQL: { icon: "postgresql/postgresql-original.svg" },
-  Docker: { icon: "docker/docker-original.svg" }
+  Docker: { icon: "docker/docker-original.svg" },
+  Linux: { icon: "linux/linux-original.svg" }
 };
 
 function renderLinks(links) {
@@ -40,7 +44,7 @@ function renderTechStack(techStack) {
   return techStack.map((item) => {
     const entry = TECH_ICONS[item];
     if (entry) {
-      return `  <img src="${DEVICON_BASE}/${entry.icon}" alt="${escapeCell(item)}" title="${escapeCell(item)}" width="48" height="48" />`;
+      return `  <img src="${DEVICON_BASE}/${entry.icon}" alt="${escapeCell(item)}" title="${escapeCell(item)}" width="56" height="56" />`;
     }
     const style = { color: "374151" };
     const image = `https://img.shields.io/badge/${badgeSegment(item)}-${style.color}?style=for-the-badge`;
@@ -112,8 +116,6 @@ ${renderLinks(config.links)}
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=${username}.${username}&" alt="Visitor Badge" />
-  &nbsp;
   <code>${config.profile.status}</code>
 </p>
 

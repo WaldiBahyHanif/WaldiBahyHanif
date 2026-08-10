@@ -1,10 +1,10 @@
 {
   "generator": "agent-console-v1",
-  "version": "96308cad",
+  "version": "8b4d9f11",
   "assets": {
-    "desktopDark": "agent-console-96308cad-dark.svg",
-    "desktopLight": "agent-console-96308cad-light.svg",
-    "mobileDark": "agent-console-96308cad-mobile-dark.svg",
-    "mobileLight": "agent-console-96308cad-mobile-light.svg"
+    "desktopDark": "agent-console-8b4d9f11-dark.svg",
+    "desktopLight": "agent-console-8b4d9f11-light.svg",
+    "mobileDark": "agent-console-8b4d9f11-mobile-dark.svg",
+    "mobileLight": "agent-console-8b4d9f11-mobile-light.svg"
   }
 }

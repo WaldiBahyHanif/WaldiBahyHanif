@@ -58,9 +58,13 @@
     "Pandas",
     "NumPy",
     "JavaScript",
+    "FastAPI",
+    "Jupyter",
     "Git",
+    "GitHub",
     "SQL",
-    "Docker"
+    "Docker",
+    "Linux"
   ],
   "links": [
     {
