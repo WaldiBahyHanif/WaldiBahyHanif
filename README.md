@@ -101,12 +101,12 @@ Deep in LLM apps, agent workflows, and computer vision — mostly late at night,
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
-- Aug 14, 2026: pushed 1 commit to [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
-- Aug 14, 2026: merged pull request [#6](https://github.com/WaldiBahyHanif/learn) in [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
-- Aug 14, 2026: opened pull request [#6](https://github.com/WaldiBahyHanif/learn) in [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
-- Aug 14, 2026: created a branch in [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
-- Aug 14, 2026: merged pull request [#5](https://github.com/WaldiBahyHanif/learn) in [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
-- Aug 14, 2026: opened pull request [#5](https://github.com/WaldiBahyHanif/learn) in [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
+- Aug 14, 2026: closed issue [#1](https://github.com/WaldiBahyHanif/learn/issues/1) in [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
+- Aug 14, 2026: opened issue [#1](https://github.com/WaldiBahyHanif/learn/issues/1) in [WaldiBahyHanif/learn](https://github.com/WaldiBahyHanif/learn).
+- Aug 10, 2026: pushed 1 commit to [WaldiBahyHanif/WaldiBahyHanif](https://github.com/WaldiBahyHanif/WaldiBahyHanif).
+- Aug 10, 2026: created a branch in [WaldiBahyHanif/Diary-Learn](https://github.com/WaldiBahyHanif/Diary-Learn).
+- Aug 10, 2026: pushed 1 commit to [WaldiBahyHanif/Diary-Learn](https://github.com/WaldiBahyHanif/Diary-Learn).
+- Aug 7, 2026: pushed 1 commit to [WaldiBahyHanif/WaldiBahyHanif](https://github.com/WaldiBahyHanif/WaldiBahyHanif).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
