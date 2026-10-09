@@ -103,7 +103,6 @@ Deep in LLM apps, agent workflows, and computer vision — mostly late at night,
 <!-- AUTO:ACTIVITY:START -->
 - Sep 14, 2026: pushed 1 commit to [WaldiBahyHanif/Doctor-Appointment](https://github.com/WaldiBahyHanif/Doctor-Appointment).
 - Sep 9, 2026: pushed 1 commit to [WaldiBahyHanif/booking](https://github.com/WaldiBahyHanif/booking).
-- Sep 8, 2026: pushed 1 commit to [WaldiBahyHanif/Doctor-Appointment](https://github.com/WaldiBahyHanif/Doctor-Appointment).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
