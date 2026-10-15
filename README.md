@@ -105,7 +105,6 @@ Deep in LLM apps, agent workflows, and computer vision — mostly late at night,
 - Oct 10, 2026: assigned pull request [#2](https://github.com/WaldiBahyHanif/kajian_santri) in [WaldiBahyHanif/kajian_santri](https://github.com/WaldiBahyHanif/kajian_santri).
 - Oct 10, 2026: assigned pull request [#1](https://github.com/WaldiBahyHanif/kajian_santri) in [WaldiBahyHanif/kajian_santri](https://github.com/WaldiBahyHanif/kajian_santri).
 - Oct 10, 2026: pushed 1 commit to [WaldiBahyHanif/kajian_santri](https://github.com/WaldiBahyHanif/kajian_santri).
-- Sep 14, 2026: pushed 1 commit to [WaldiBahyHanif/Doctor-Appointment](https://github.com/WaldiBahyHanif/Doctor-Appointment).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
